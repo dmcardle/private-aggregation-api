@@ -1065,8 +1065,6 @@ To <dfn>obtain the plaintext payload</dfn> given an [=aggregatable report=]
 1. Let |payloadData| be a new [=list=].
 1. Let |contributions| be |report|'s [=aggregatable report/contributions=].
 1. Let |maxContributions| be |report|'s [=aggregatable report/max contributions=].
-1. If |maxContributions| is null, set it to [=default maxContributions by
-    API=][[=aggregatable report/api=]].
 1. [=Assert=]: |contributions|' [=list/size=] is not greater than
     |maxContributions|.
 1. [=iteration/While=] |contributions|' [=list/size=] is less than
