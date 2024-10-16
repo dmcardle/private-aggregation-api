@@ -1232,9 +1232,6 @@ Note: Without this, [=aggregatable reports=] would be subject to delays, making
 
 </div>
 
-Issue: Add Shared Storage monkey patch that defines the `maxContributions`
-field.
-
 Protected Audience API monkey patches {#protected-audience-api-monkey-patches}
 ==============================================================================
 
